@@ -1,7 +1,7 @@
 #  Flutter培训练习 
 仿照[CNode社区](https://cnodejs.org)实现⽂文章列列表⻚页、⽂文章详情⻚页、⽤用户详情⻚页的功能
 
-> Flutter⾃自学建议视频资源:[https://www.bilibili.com/video/av52490605/?p=15](https://www.bilibili.com/video/av52490605/?p=15) 
+Flutter⾃自学建议视频资源:[https://www.bilibili.com/video/av52490605/?p=15](https://www.bilibili.com/video/av52490605/?p=15) 
 
 # 功能要求
 参照API⽂文档实现API请求，⻚页⾯面CSS需要⾃自⾏行行编写 
