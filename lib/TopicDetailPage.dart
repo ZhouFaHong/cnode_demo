@@ -62,6 +62,8 @@ class _TopicDetailPageState extends State<TopicDetailPage> {
       tab = '问答';
     } else if (this.arguments['tab'] == 'dev') {
       tab = '客户端测试';
+    } else if (this.arguments['tab'] == 'job') {
+      tab = '招聘';
     }
     print('id = ${this.arguments['id']}');
 

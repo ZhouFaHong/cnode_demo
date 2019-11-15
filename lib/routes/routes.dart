@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:cnode_demo/Home.dart';
 import 'package:cnode_demo/UserPage.dart';
 import 'package:cnode_demo/TopicDetailPage.dart';
+import 'package:cnode_demo/home/home_page.dart';
 
 
 // 配置路由
 final routes = 
 {
-  '/':(context,{arguments}) => HomePage(),
+  '/':(context,{arguments}) => MyHomePage(),
   '/userPage':(context,{arguments}) => UserPage(arguments:arguments),
   '/topicDetailPage':(context,{arguments}) => TopicDetailPage(arguments:arguments),
   

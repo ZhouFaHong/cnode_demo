@@ -38,7 +38,7 @@ String switchToDateTime(String date) {
     } else if (minute >= 1) {
       text = '$minute分钟前';
     } else {
-      text = '$second分钟前';
+      text = '$second秒前';
     }
   }
 
