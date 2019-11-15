@@ -1,16 +1,26 @@
-# cnode_demo
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ # Flutter培训练习 
+ 仿照CNode社区实现⽂文章列列表⻚页、⽂文章详情⻚页、⽤用户详情⻚页的功能
+Flutter⾃自学建议视频资源:https://www.bilibili.com/video/av52490605/?p=15 功能要求
+参照API⽂文档实现API请求，⻚页⾯面CSS需要⾃自⾏行行编写 ⽂文章列列表⻚页
+1. ⾸首⻚页为⽂文章列列表⻚页，需要包含4个版块tab:全部、精华、分享、客户端测试。
+2. 每⼀一个item的信息点需要与原作⼀一致，包括:作者头像、评论数/阅读数、版块、标题、最后⼀一位回
+复
+者、距离发表时间。
+3. 要求必须使⽤用⾃自定义组件来实现列列表。
+⽂文章详情⻚页
+1. ⽂文章详情⻚页包含:标题、是否为“精华”、发布时间、作者、浏览量量、最后⼀一次编辑时间、来⾃自版块。 以 及⽂文章主体内容和回复的列列表。具体UI样式以及摆放位置，可以参照CNode社区样式。
+2. 要求必须使⽤用⾃自定义组件来实现回复列列表。
+⽤用户详情⻚页
+1. ⽤用户详情⻚页包括:头像、昵称、积分、注册时间
+2. 最近创建的话题。每⼀一个item包括作者头像、评论数、浏览数、标题、最后回复者头像、创建时
+间。要
+求点击头像能再跳转
+3. 最近参与的话题。每⼀一个item包括作者头像、评论数、浏览数、标题、最后回复者头像、创建时 间。要
+求点击头像能再跳转
+4. 要求必须使⽤用⾃自定义组件来实现最近创建的话题列列表以及最近参与的话题列列表。且必须是同⼀一组 件。
+考核标准
+1. 实现以上功能点。
+2. UI保证和原版基本⼀一致，可以有⼩小的瑕疵，⽐比如1、2个像素的差异。
+     
+ 3. 使⽤用过程中不不应该有代码报错。
+4. 要充分考虑机型兼容。对于新发现的机型不不兼容bug，要做出修改 。
