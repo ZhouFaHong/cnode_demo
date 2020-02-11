@@ -7,6 +7,9 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+
+
+    print('------------------11111-------------');
     return MaterialApp(
       debugShowCheckedModeBanner: false,  // 去除右上角Debug标签
       theme: ThemeData(
